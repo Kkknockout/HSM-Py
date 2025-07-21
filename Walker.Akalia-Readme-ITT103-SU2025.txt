@@ -1,0 +1,36 @@
+Authors: Akalia Walker
+Date Created: July, 18, 2025
+Course: ITT103
+GitHub Public URL to Code:https://github.com/Kkknockout/HSM-Py/blob/main/Akalia.Walker-Python_Program-ITT103-SU2025.py
+
+
+ 1.The purpose of the program is to-
+
+Add and manage patient and doctor records in the Hospital System, 
+Book and cancel Appointments,
+View Doctor schedules and patient & doctor profiles
+Generate bills after scheduled appointment
+Validate user's input (catch errors)
+
+
+2. How to run it-
+Use PyCharm and open the terminal or command prompt,
+Navigate to the folder containing the HSM.py file,
+Run the file using the command "run"
+After a console menu for the HSM will appear do what it says.
+
+Required modifications-
+Use file handling or a database for persistent storage so data isn’t lost when the program closes causing it to have to be done again,
+Create a graphical interface or a web interface,
+Add authentication/password entry for staff and patients to model a real world system security, and have the users login.
+
+
+ 4. Any assumptions or limitations regarding its operation-
+All records are stored in memory during runtime. Exiting the program clears all data that was entered and data will be lost,
+There is a single user role as the current version assumes one administrative user; no roles like "doctor" or "patient" login exist in this program,
+Users must enter valid formats for names, dates, and other options. Exception handling manages basic errors, but not advanced formatting issues,
+Every input is manual and it's a long system so every detail of an Hospital System can't be included.
+
+J.Johnson
+
+
